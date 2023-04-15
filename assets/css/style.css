@@ -1,0 +1,153 @@
+/* Body and background styles */
+body {
+    background-image: url("../Images/background.jpeg"); 
+    background-color: rgba(204, 204, 204, 1); 
+    background-size: cover;
+    
+    
+    
+}
+
+/* Link styles */
+a {
+    color: white !important;
+    font-size: 3vw;
+    text-decoration: none !important; 
+    font-weight: bold; 
+}
+
+.card-title {
+    color: white;
+    font-size: 1.5vw;
+}
+
+/* Navigation bar styles */
+#navBar {
+    padding: 2%; 
+    justify-content: center; 
+    background-color: rgba(0,0,0,0.5); 
+}
+
+/* First row styles */
+#rowOne {
+    padding-top: 2%; 
+    padding-left: 2%; 
+    font-size: 2vw;
+    font-weight: bold; 
+    color: white;
+    
+    
+    
+}
+
+/* White text class */
+.white-text {
+    color: white;
+}
+
+/* Form inline styles */
+.form-inline {
+    padding-left: 2%; 
+    padding-bottom: 2%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgba(0,0,0,0.2); 
+}
+
+/* Last search styles */
+#lastSearch {
+    padding-left: 3%; 
+    padding-bottom: 2%; 
+    display: flex; 
+    
+    
+}
+
+/* Weather card styles */
+#weatherDispCard {
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    padding-left: 2%; 
+    padding-right: 0%;
+    
+   
+    
+    
+    
+}
+
+/* 5-day forecast row styles */
+#fivedays {
+    padding-bottom: 2%; 
+    padding-top: 2%; 
+    padding-left: 2%; 
+    padding-right: 2%;
+    background-color: rgba(0,0,0,0.2); 
+}
+
+/* Row of cards styles */
+#Cards {
+    justify-content: center; /* center items horizontally within the element */
+    padding: 0%;
+    background-color: rgba(0,0,0,0.2);
+}
+
+/* Card display styles */
+#cardDisplay {
+    display: none; /* hide the element */
+}
+/* Container fluid styles */
+.container-fluid {
+padding-bottom: 7%; 
+
+}
+@media screen and (max-width: 481px){
+    a {
+        font-size: 4vw; 
+    }
+    
+    #navBar {
+        padding: 4%; 
+    }
+    
+    #rowOne {
+        padding-top: 4%; 
+        padding-left: 4%; 
+        font-size: 4vw; 
+    }
+    
+    .form-inline {
+        padding-left: 4%; 
+        padding-bottom: 4%; 
+    }
+    
+    #lastSearch {
+        padding-left: 6%; 
+        padding-bottom: 4%; 
+    }
+    
+    #weatherCard {
+        padding-top: 4%; 
+        padding-bottom: 4%; 
+        padding-left: 4%; 
+    }
+    
+    #fivedays {
+        padding-bottom: 8%; 
+        padding-top: 8%; 
+        padding-left: 8%; 
+        padding-right: 8%;
+    }
+    
+    #Cards {
+        padding: 4%; 
+    }
+    
+    .container-fluid {
+        padding-bottom: 14%; 
+    }
+    
+
+
+}

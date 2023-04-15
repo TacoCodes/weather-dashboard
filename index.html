@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/Images/favicon.ico" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-light" id="navBar">
+      <a href="index.html">Weather Dashboard </a>
+    </nav>
+
+    <!-- Container -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="row" id="rowOne">Search City:</div>
+          <div class="row">
+            <form class="form-inline my-2 my-sm-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search City!"
+                aria-label="Search"
+                id="searchIn"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+            <div class="row" id="lastSearch">
+              <div class="card" style="width: 18rem" id="butList">
+                <!-- last search goes here -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Weather Card -->
+
+        <div class="col-lg-8" id="Weathers">
+          <div class="row" id="weatherDispCard">
+            <div class="card" style="width: 98%" id="displayCard">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="card-body" id="card">
+                    <h2 class="card-title" id="cityResults"></h2>
+                    <p class="card-text" id="tempResults"></p>
+                    <p class="card-text" id="humidResults"></p>
+                    <p class="card-text" id="windResults"></p>
+                    <p class="card-tet" id="UVInR"></p>
+                  </div>
+                </div>
+                <div class="col-lg-4" id="mIcon">
+                  <!-- Main Icon -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5 Day Forecast -->
+          <div class="row" id="fivedays"></div>
+
+          <div class="row" id="Cards">
+            <!-- Cards Goes Here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
