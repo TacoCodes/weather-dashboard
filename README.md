@@ -36,11 +36,17 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 ## Mock-Up:
-The following image shows the web application's appearance and functionality:
-
-my computer wont let me take screenshots after updating windows, so sadly i cant upload a screenshot of the working application.
+![screenshot of the weather dashboard application ](./assets/Images/screenshot1.png)
+![screenshot of the weather dashboard application ](./assets/Images/screenshot2.png)
 
 ## The Resources I used:
 
 - https://openweathermap.org/
+
+## Links to the challange
+<br>
+The challange was upload to Github at the following repository: https://github.com/TacoCodes/weather-dashboard
+<br>
+
+deployed github page for weather app: https://tacocodes.github.io/weather-dashboard/
 
